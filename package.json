@@ -1,0 +1,25 @@
+{
+  "name": "kakudake",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d js",
+    "clear": "rm js/*.js && echo \"JS folder is clear of js files...\" || echo \"The folder is already clear...\"",
+    "start": "node dist"
+  },
+  "keywords": [
+    "Typing",
+    "Japanese"
+  ],
+  "author": "Matheus Gonçalves <matheusgt4@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
